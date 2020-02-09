@@ -9,7 +9,7 @@ function partyvid(message) {
     setTimeout(function(){
       vid.pause();
       vid.currentTime = 0;
-    }, 11900) //seconds until video stops playing--currently at 11.9s
+    }, 8000) //seconds until video stops playing--currently at 11.9s
 }
 
 ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
@@ -22,8 +22,8 @@ ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
     }
 };
 ComfyJS.onChat = ( user, message, flags, self, extra ) => {
-    if( flags.customReward && extra.customRewardId === "YOUR CUSTOM REWARD ID" ) {
+    if( flags.customReward && extra.customRewardId === "91611494-80ae-4fc8-ac0c-a731b22754c1" ) {
         partyvid( message );
     }
 };
-ComfyJS.Init( "YOURCHANNELID" );
+ComfyJS.Init( "jae1379" );
