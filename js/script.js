@@ -9,7 +9,7 @@ function partyvid(message) {
     setTimeout(function(){
       vid.pause();
       vid.currentTime = 0;
-    }, 8000) //seconds until video stops playing--currently at 11.9s
+    }, 12000) //seconds until video stops playing--currently at 11.9s
 }
 
 ComfyJS.onCommand = ( user, command, message, flags, extra ) => {
