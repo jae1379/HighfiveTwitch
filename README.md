@@ -5,7 +5,7 @@
 
 # Directions:
 1. Download the github repo
-2. Open up favorite script editor (i.e Atom editor) and edit index.html & script.js under js folder and change in script.js: "jae1379" to your channel name (ie jae1379), and change "YOUR CUSTOM REWARD ID" to your custom reward ID as found with instafluff's amazing reward ID finder (& go support him!) https://github.com/instafluff/TwitchCustomRewardID; SAVE!
+2. Open up favorite script editor (i.e Atom editor) and edit index.html & script.js under js folder and change in script.js: "jae1379" to your channel name (ie jae1379), and change "91611494-80ae-4fc8-ac0c-a731b22754c1" to your custom reward ID as found with instafluff's amazing reward ID finder (& go support him!) https://github.com/instafluff/TwitchCustomRewardID; SAVE!
 7. Add browser soure on OBS --> local file --> index.html
 8. Add chroma key filter to green and adjust so that it's chroma-keying just right (too much will be no show, too little will not work). 
     8.1 (my settings are Similiarity 375, smooth 60, and leave the rest the same as default) 
